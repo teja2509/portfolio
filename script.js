@@ -1,12 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
   const sections = document.querySelectorAll("[data-animation]");
-  const hero = document.querySelector(".hero"); 
+  const hero = document.querySelector(".hero");
 
+  if (hero) {
+    hero.classList.add("in-view");
+  }
 
   window.addEventListener("scroll", () => {
     sections.forEach((section) => {
       const rect = section.getBoundingClientRect();
-
 
       if (rect.top < window.innerHeight - 100) {
         section.classList.add("in-view");
@@ -17,8 +19,4 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
-
-  if (hero) {
-    hero.classList.add("in-view"); 
-  }
 });

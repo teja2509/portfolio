@@ -24,7 +24,16 @@ body {
   overflow: hidden;
   position: relative;
   perspective: 1000px;
+  transform: translateY(-100%);
+  opacity: 0; 
+  transition: transform 1s ease-out, opacity 1s ease-out; 
 }
+
+.hero.in-view {
+  transform: translateY(0); 
+  opacity: 1; 
+}
+
 
 .profile-photo {
   width: 150px;
@@ -421,6 +430,7 @@ section p {
     font-size: 1.8rem;
   }
 }
+
 
 footer {
   background: #333;

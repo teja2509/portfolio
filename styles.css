@@ -403,6 +403,25 @@ section p {
   }
 }
 
+@media (max-width: 480px) {
+  .contact h2 {
+    font-size: 2.2rem;
+  }
+
+  .contact-list li {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .contact-list li p {
+    font-size: 0.95rem;
+  }
+
+  .contact-icon {
+    font-size: 1.8rem;
+  }
+}
+
 footer {
   background: #333;
   color: white;

@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
+  <header class="hero" data-animation="from-top">
     <div class="hero-content">
       <img src="profile.jpg" alt="Pritham Teja" class="profile-photo">
       <h1>Pritham Teja</h1>
@@ -15,26 +15,24 @@
     </div>
   </header>
 
-  <!-- Career Objective Section -->
-  <section class="objective" data-scroll>
+  <section class="objective" data-animation="from-left">
     <div class="container">
       <h2>Career Objective</h2>
       <p>
-        As a recent graduate in Computer Science, I am seeking an entry-level software developer position where I can apply my knowledge of programming languages such as Java, Python, and C++ to build efficient and user-friendly applications. I aim to grow professionally, solve challenging problems, and contribute to the success of a dynamic company.
+        As a recent graduate in Computer Science, I am seeking an entry-level software developer position where I can apply my knowledge of programming languages such as Java, Python, and C++ to build efficient and user-friendly applications.
       </p>
     </div>
   </section>
 
-  <!-- Education Section -->
-  <section class="education">
+  <section class="education" data-animation="from-right">
     <h2>Education</h2>
     <div class="education-container">
-        <div class="education-card">
-            <h3>B.E - Computer Science and Engineering</h3>
-            <p>Sathyabama Institute of Science and Technology</p>
-            <p>Chennai</p>
-            <span>2019 – 2023 | CGPA: 8.04</span>
-          </div>
+      <div class="education-card">
+        <h3>B.E - Computer Science and Engineering</h3>
+        <p>Sathyabama Institute of Science and Technology</p>
+        <p>Chennai</p>
+        <span>2019 – 2023 | CGPA: 8.04</span>
+      </div>
       <div class="education-card">
         <h3>Board of Intermediate Education Telangana</h3>
         <p>Sri Gayatri Junior College</p>
@@ -46,13 +44,12 @@
         <p>Narayana High School</p>
         <p>Nalgonda</p>
         <span>2017 | CGPA: 8.0</span>
-    </div>
+      </div>
     </div>
   </section>
-  
 
-  <!-- Technical Skills Section -->
-  <section class="skills">
+
+  <section class="skills" data-animation="from-left">
     <h2>Technical Skills</h2>
     <div class="skills-container">
       <ul>
@@ -63,31 +60,27 @@
       </ul>
     </div>
   </section>
-  
-  <!-- Projects Section -->
-  <section class="projects" data-scroll>
+
+  <section class="projects" data-animation="from-right">
     <div class="container">
       <h2>Personal Projects</h2>
       <div class="project">
         <h3>Pedi Store</h3>
         <p>
-          Developed a user-centric front-end web application for fuel and auto parts ordering, and vehicle rental bookings. 
-          Used HTML, CSS, and Bootstrap to enhance user experience, resulting in a 25% increase in orders and a 30% rise 
-          in customer engagement.
+          Developed a user-centric front-end web application for fuel and auto parts ordering, and vehicle rental bookings.
         </p>
       </div>
       <div class="project">
         <h3>Health Insurance Premium Predictor</h3>
         <p>
-          Engineered an ML-based application with 90% predictive accuracy for insurance premiums using historical data. 
-          Implemented using Python and Google Colab, with improved predictive accuracy through model optimization.
+          Engineered an ML-based application with 90% predictive accuracy for insurance premiums using historical data.
         </p>
       </div>
     </div>
   </section>
 
-  <!-- Certifications Section -->
-  <section class="certifications" data-scroll>
+
+  <section class="certifications" data-animation="from-left">
     <div class="container">
       <h2>Certifications</h2>
       <ul>
@@ -98,13 +91,13 @@
     </div>
   </section>
 
-  <section class="contact">
+  <section class="contact" data-animation="from-right">
     <h2>Contact</h2>
     <div class="contact-container">
       <ul class="contact-list">
         <li>
           <a href="tel:+918555821143" class="contact-link">
-            <span class="contact-icon">📞</span>
+            <span class="phone-icon">📞</span>
             <p>+91 8555821143</p>
           </a>
         </li>
@@ -122,11 +115,10 @@
     </div>
   </section>
   
-  <footer>
+  <footer >
     <p>© Design by Pritham Teja.</p>
   </footer>
 
   <script src="script.js"></script>
-  
 </body>
 </html>
